@@ -1,0 +1,161 @@
+html,body{
+    background-color: #2b66c9;
+}
+header{
+    width: 37.5rem;
+    height: 20rem;
+    background: url("../images/headerBg_01.png") center no-repeat;
+    background-size: cover;
+}
+section .tab{
+    position: relative;
+    box-sizing: border-box;
+    margin: 1.6rem auto 0;
+    padding-top: 6rem;
+    width: 32.6rem;
+    height: 10.6rem;
+    text-align: center;
+}
+section .tab span{
+    position: absolute;
+    top: -0.5rem;
+    left: -1rem;
+    display: block;
+    width: 3.5rem;
+    height: 2.7rem;
+}
+section .tab.one{
+    background: url("../images/tab1_05.png") center no-repeat;
+    background-size: cover;
+}
+section .tab.one span{
+    background: url("../images/tab1-1.png") center no-repeat;
+    background-size: cover;
+}
+section .tab.two span{
+    background: url("../images/tab1-2.png") center no-repeat;
+    background-size: cover;
+}
+section .tab.two{
+    background: url("../images/tab2_05.png") center no-repeat;
+    background-size: cover;
+}
+
+section .tab p i{
+    display: inline-block;
+    margin: 0.4rem 0.5rem;
+    width: 1.65rem;
+    height: 0.1rem;
+    background-color: #2b66c9;
+}
+section .tab.two p i{
+    background-color: #e20077;
+}
+section .tab p:nth-child(2){
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #2b66c9;
+}
+section .tab.two p:nth-child(2){
+    color: #e20077;
+}
+section .tab p:nth-child(3){
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: #2b66c9;
+}
+section .tab.two p:nth-child(3){
+    color: #e20077;
+}
+
+section .title{
+    margin-top: 1.7rem;
+    width: 37.5rem;
+    height: 4.1rem;
+    background: url("../images/conPicTitle_04_03.png") center no-repeat;
+    background-size: cover;
+}
+section .content{
+    box-sizing: border-box;
+    padding: 4.8rem 0 0 18rem;
+    width: 37.5rem;
+    height: 16.25rem;
+}
+section .aa{
+    background: url("../images/conPic1_02.png") center no-repeat;
+    background-size: cover;
+}
+section .bb{
+    background: url("../images/conPic2_02.png") center no-repeat;
+    background-size: cover;
+}
+section .cc{
+    background: url("../images/conPic3_02.png") center no-repeat;
+    background-size: cover;
+}
+section .dd{
+    background: url("../images/conPic4_04.png") center no-repeat;
+    background-size: cover;
+}
+
+section .content p i{
+    display: inline-block;
+    margin: 0.4rem 1rem;
+    width: 0.7rem;
+    height: 0.2rem;
+    border-radius: 0.1rem;
+    background-color: #e21377;
+}
+section .content p:nth-child(2) i{
+    background-color: #2b66c9;
+}
+section .content p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #333333;
+}
+section .content p:nth-child(3){
+    margin-left: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    color: #fc0d1b;
+}
+section .content p:nth-child(3) em{
+    margin-left: 1.3rem;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.2rem;
+    text-decoration: line-through;
+    color: #666666;
+}
+section .content span{
+    display: block;
+    margin: 0.3rem 0 0 2rem;
+    width: 10rem;
+    height: 2.8rem;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 2.8rem;
+    border-radius: 0.5rem;
+    color: #1452ba;
+    background-color: #ffe75e;
+}
+
+
+
+
+
+footer{
+    padding: 1.1rem 3rem 3.4rem 4.5rem;
+}
+footer p{
+    text-indent: -1em;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    color: #ffffff;
+}
+footer p:nth-child(1){
+    text-align: center;
+    line-height: 4rem;
+}
