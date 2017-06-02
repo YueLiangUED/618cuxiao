@@ -142,10 +142,6 @@ section .content span{
     background-color: #ffe75e;
 }
 
-
-
-
-
 footer{
     padding: 1.1rem 3rem 3.4rem 4.5rem;
 }
@@ -158,4 +154,57 @@ footer p{
 footer p:nth-child(1){
     text-align: center;
     line-height: 4rem;
+}
+
+.tcBox{
+    display: none;
+    position: fixed;
+    top: 22rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 2.1rem;
+    box-sizing: border-box;
+    width: 24.55rem;
+    height: 11.4rem;
+    text-align: center;
+    background: url("../images/tcBg.png") center no-repeat;
+    background-size: cover;
+    z-index: 9999;
+}
+
+.tcBox span{
+    position: absolute;
+    top: 0.95rem;
+    right: 1.3rem;
+    display: block;
+    width: 0.95rem;
+    height: 0.95rem;
+    background: url("../images/tcClose.png") center no-repeat;
+    background-size: cover;
+}
+.tcBox p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    color: #e20077;
+}
+
+.tcBox i{
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2rem;
+    color: #e20077;
+}
+
+.mask {
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=60);
+    background-color: #000;
+    z-index: 1002;
+    left: 0px;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
 }

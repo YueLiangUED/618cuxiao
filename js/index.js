@@ -7,6 +7,16 @@
 })(window);
 
 $(function () {
+    //显示遮罩层
+    function showMask(){
+        $("#mask").css("height",$(document).height());
+        $("#mask").css("width",$(document).width());
+        $("#mask").show();
+    }
+    //隐藏遮罩层
+    function hideMask(){
+        $("#mask").hide();
+    }
     //各按钮跳转链接(从上依次往下)
     //寻找618
     $('.one').click(function () {
@@ -14,8 +24,15 @@ $(function () {
     });
     //618流量红包
     $('.two').click(function () {
-        window.location.href = '';
+        showMask();
+        $('.tcBox').fadeIn();
     });
+    //弹窗关闭按钮
+    $('.tcBox').on('click','span',function () {
+        hideMask();
+        $('.tcBox').fadeOut();
+    });
+    
     //任我看视频流量包立即抢购按钮
     $('.aa').on('click','span',function () {
         window.location.href = '';
