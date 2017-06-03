@@ -19,7 +19,7 @@ section .tab{
 section .tab span{
     position: absolute;
     top: -0.5rem;
-    left: -1rem;
+    left: -0.7rem;
     display: block;
     width: 3.5rem;
     height: 2.7rem;
@@ -97,7 +97,9 @@ section .dd{
     background: url("../images/conPic4_04.png") center no-repeat;
     background-size: cover;
 }
-
+section .content p b{
+    font-size: 1.2rem;
+}
 section .content p i{
     display: inline-block;
     margin: 0.4rem 1rem;
